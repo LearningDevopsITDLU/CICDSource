@@ -1,0 +1,302 @@
+﻿body {
+    margin:0;
+    background:url(images/bg-body.gif);
+}
+.page{
+    background:url(images/bg-header.jpg)no-repeat center top;
+    height:200px;
+}
+.header{
+    background:url(images/bg-header.gif)repeat-x;
+    height:68px;
+    width:1600px;
+    padding:30px 0 0;
+}
+.header #logo img{
+    margin-left:200px;
+    border:0px;
+}
+.header ul{
+    list-style:none;
+    margin:0;
+    padding:13px 0 0;
+    float:right;
+    margin-right:100px;
+}
+.header ul li{
+    list-style:none;
+    float:left;
+	margin:0 0 0 20px;
+}
+.header a:hover{
+    color:#3b7193;
+}
+.header ul li:first-child a{
+	background:none;
+}
+.header ul li.selected a {
+        font-weight: bold;
+        color: #3b7193;
+}
+.header ul li a{
+    font-size:26px;
+    color: #6cb2e6;
+    text-shadow: 0 1px 0 #d1e6f7;
+    background:url(images/interface.gif) no-repeat left 0;
+    font-family:'RokkittRegular';
+    text-decoration:none;
+    padding:0 0 0 20px;
+}
+.body{
+    background:url(images/bg-content.gif)repeat-x #90C5E7;
+    width:1600px;
+}
+.body #featured{
+    background:url(images/top-border.gif) no-repeat;
+    height:507px;
+	padding: 0 10px;
+	margin:0 auto;
+	width:940px;
+}
+.body #featured:first-child {
+    padding: 65px 30px 0 0;
+}
+.body #featured h3{
+    color:#305872;
+	font-size:18px;
+	line-height:10px;
+	font-family: 'RokkittRegular';
+    margin-top:1px;
+    width:350px;
+	font-weight:bold;
+}
+.body #featured p{
+    color:#305872;
+    font-size:16px;
+    font-family: 'RokkittRegular';
+    text-shadow: 0 1px 0 #d4efff;
+    margin-right:500px;
+}
+.body #featured a{
+    color:#305872;
+    font-size:16px;
+    font-family: 'RokkittRegular';
+    text-shadow: 0 1px 0 #d4efff;
+}
+.body #featured2 {
+        float: left;
+        background: none;
+        padding: 65px 0 0 30px;
+        width: 440px;
+}
+.body #featured2 h3{
+    color:#305872;
+	font-size:18px;
+	line-height:10px;
+	font-family: 'RokkittRegular';
+    position:relative;
+    bottom:590px;
+    left:850px;
+    width:350px;
+	font-weight:bold;
+}
+.body #featured2 p{
+    color:#305872;
+    font-size:16px;
+    font-family: 'RokkittRegular';
+    text-shadow: 0 1px 0 #d4efff;
+    position:relative;
+    bottom:590px;
+    left:850px;
+}
+.body #featured2 a{
+    color:#305872;
+    font-size:16px;
+    font-family: 'RokkittRegular';
+    text-shadow: 0 1px 0 #d4efff;
+}
+.body #featured2 a#join{
+    background: url(../images/interface.png) no-repeat 0 -221px;
+    width: 388px;
+    height: 97px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'RokkittRegular';
+    font-size: 20px;
+    color: #39657e;
+    text-shadow: 0 1px 0 #d7eaf8;
+    font-weight: bold;
+    line-height: 57px;
+    outline: none;
+    position:relative;
+    bottom:590px;
+    left:850px;
+}
+.body .blog{
+    background:url(images/bg-content2.gif);
+    height:450px;
+    width:1600px;
+}
+.body ul.blog1{
+    list-style: none;
+    position:relative;
+    bottom:550px;
+    left:100px;
+    height:600px;
+    padding: 0 10px 50px;
+    background: url(images/separator-horizontal.jpg) no-repeat center top;
+    overflow: hidden;
+    width: 1365px;
+}
+.body ul.blog1 h3{
+    font-family: 'RokkittRegular';
+    font-size: 22px;
+    font-weight: bold;
+    color: #7e7e7e;
+    margin-left:20px;
+    line-height: 21px;
+}
+}
+.body ul.blog1 li{
+    list-style:none;
+    margin:0 auto;
+    padding: 0 10px 50px;
+    overflow: hidden;
+    width: 940px;
+}
+.body ul.blog1 a:first-child {
+    margin-right:1100px;
+    padding: 0;
+    background: none;
+    width: auto;
+    height: auto;
+    line-height: 0;
+}
+.body ul.blog1 li p{
+    width:258px;
+	text-align:justify;
+	color:#828081;
+	font-family:arial;
+	margin:17px 0 0;
+	line-height:21px;
+	font-size:12px;
+	background:none;
+	padding:0;
+}
+.body ul.blog1 a{
+    font-family: 'RokkittRegular';
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 100px;
+    background: url(images/bg-readmore.gif) no-repeat center top;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 80px;
+    text-shadow: 0 1px 0 #d9edf8;
+    text-align:center;
+}
+.footer{
+    width:1400px;
+    height:200px;
+    background:url(images/bg-footer.gif);
+    padding:40px 0 0 150px;
+    position:relative;
+    bottom:130px;
+    overflow:hidden;
+}
+.footer div{
+    width: 1060px;
+    margin-left:10px;
+    overflow: hidden;
+}
+.footer div ul{
+    list-style:none;
+    margin:0;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+.footer div ul li{
+	margin:0 0 5px;
+}
+.footer div ul li a:hover {
+        color: #6CB2E6;
+}
+.footer div ul li a{
+    color:#d5ebf8;
+	font-size:18px;
+	font-family: 'RokkittRegular';
+	text-decoration:none;
+	outline:none;
+	line-height:35px;
+}
+.footer div p {
+        color: #22323f;
+        font-size: 12px;
+        margin: 25px 25px 0 65px;
+        font-family: Arial;
+        width: 600px;
+        float: left;
+        text-align: justify;
+        text-shadow: 0 1px 0 #99abb9;
+        line-height: 21px;
+}
+.footer .connect{
+    float:left;
+    margin:0 0 50px;
+    width:auto;
+	height:150px;
+	background:url(images/interface.gif) no-repeat left -33px;
+}
+.footer .connect a:hover{
+    color:#3d4f5b;
+}
+.footer .connect a{
+	outline:none;
+	height:28px;
+	width:auto;
+	text-decoration:none;
+	margin:10px 0 0 45px;
+	font-family:arial;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:0 1px 0 #546a77;
+	text-transform:capitalize;
+	font-size:14px;
+}
+.footer .connect a#vimeo{
+    display:block;
+    background:url(images/icons.gif) no-repeat 0 -48px;
+	line-height:25px;
+    padding:0 0 0 80px;
+	margin-bottom: 25px;
+}
+.footer .connect a#facebook{
+    display:block;
+    background:url(images/icons.gif) no-repeat 0 -48px;
+	line-height:25px;
+    padding:0 0 0 80px;
+	margin-bottom: 25px;
+}
+.footer .connect a#twitter{
+    display:block;
+    background:url(images/icons.gif) no-repeat 0 -48px;
+	line-height:25px;
+    padding:0 0 0 80px;
+	margin-bottom: 25px;
+}
+.footer p.footernote{
+    text-shadow: 0 1px 0 #99abb9;
+	color:#3e505c;
+	clear:both;
+	text-align:center;
+	margin:0;
+	float:none;
+	width:auto;
+	font-size:10px;
+	font-family:trebuchet MS;
+	font-weight:bold;
+	padding:30px 0 0;
+}
