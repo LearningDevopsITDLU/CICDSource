@@ -1,0 +1,272 @@
+﻿body{
+    margin:0;
+    background:url(images/bg-body.gif);
+}
+.page{
+    background:url(images/bg-header.gif);
+}
+@font-face{
+    font-family:'RokkittRegular';
+    src:url(fonts/rokkitt-regular-webfont.eot);
+    src:url(fonts/rokkitt-regular-webfont.eot#iefix)format('embedded-opentype');
+    src:url(fonts/rokkitt-regular-webfont.svg#RokkitRegular)format('svg');
+    src:url(fonts/rokkitt-regular-webfont.woff)format('woff');
+    src:url(fonts/rokkitt-regular-webfont.ttf)format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+.header{
+    background:url(images/bg-header.gif)repeat-x;
+    height:68px;
+    width:1365px;
+    padding:30px 0 0;
+}
+.header a{
+    float:left;
+}
+.header #logo img{
+    margin-left:200px;
+    border:0px;
+}
+.header ul{
+	margin:0;
+	list-style:none;
+	padding:13px 0 0;
+    float:right;
+    margin-right:300px;
+}
+.header ul li{
+	float:left;
+	margin:0 0 0 20px;
+}
+.header ul li.selected a{
+    font-weight:bold;
+    color:#3b7193;
+}
+.header a:hover{
+    color:#3b7193;
+}
+.header ul li:first-child a{
+	background:none;
+}
+.header ul li a{
+    font-size:26px;
+    color: #6cb2e6;
+    text-shadow: 0 1px 0 #d1e6f7;
+    background:url(images/interface.gif) no-repeat left 0;
+    font-family:'RokkittRegular';
+    text-decoration:none;
+    padding:0 0 0 20px;
+}
+.body{
+    background:url(images/bg-content.gif)repeat-x #90C5E7;
+}
+.body #featured{
+    background:url(images/flowerwheel.jpg) no-repeat center top;
+    height:507px;
+	padding: 0 10px;
+	margin:0 auto;
+	width:940px;
+}
+.body #featured h3{
+	color:#fff;
+	font-size:28px;
+	line-height:28px;
+	text-shadow: 0 10px 3px #9ec7e5;
+	font-family: 'RokkittRegular';
+    margin:75px 0 20px 29px;
+	padding:10px 0 30px;
+    background:url(images/interface.png)no-repeat left -107px;
+	width:360px;
+	padding:10px 0 30px;
+	font-weight:normal;
+	text-align:center;
+}
+.body #featured p{
+	width:360px;
+	color:#31607e;
+	font-family:arial;
+	font-size:14px;
+	line-height:25px;
+	text-shadow: 0 1px 0 #d6f0ff;
+	text-align:justify;
+	margin:0 0 0 29px;
+}
+.body #featured a{
+    background:url(images/interface.png)no-repeat 0 20px;
+    height:102px;
+    font-family:'RokkittRegular';
+    color:#32617F;
+    font-size:20px;
+    font-weight:bold;
+    margin:0px;
+    padding-right:550px;
+    outline:none;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    line-height:92px;
+    text-shadow:0 1px 0 #DBEBFA;
+}
+.body div{
+    background:url(images/bg-content2.gif);
+}
+.body div ul.blog{
+   list-style: none;
+    margin: 0 auto;
+    padding: 0 10px 50px;
+    background: url(images/separator-horizontal.jpg) no-repeat center top;
+    overflow: hidden;
+    width: 940px;
+}
+
+.body div ul.blog a:first-child{
+    margin:25px 0 0;
+	padding:0;
+	background:none;
+	width:auto;
+	height:auto;
+	line-height:0;
+}
+.body div ul.blog li {
+    float:left;
+    margin:0 0 0 83px;
+    padding:0;
+    position:relative;
+    height: auto;
+    text-align: center;
+    width: 258px;
+}
+.body div ul.blog li p{
+    width:258px;
+	text-align:justify;
+	color:#828081;
+	font-family:arial;
+	margin:17px 0 0;
+	line-height:21px;
+	font-size:12px;
+	background:none;
+	padding:0;
+}
+.body div ul.blog li a{
+    color:#33627e;
+	font-family: 'RokkittRegular';
+	text-decoration:none;
+	display:block;
+	margin:15px auto;
+	width: 218px;
+	height:74px;
+	background:url(images/bg-readmore.gif) no-repeat center top;
+	outline:none;
+	font-size:22px;
+	font-weight:bold;
+	line-height:70px;
+	text-shadow: 0 1px 0 #d9edf8;
+}
+.body div ul.blog h3{
+	font-family: 'RokkittRegular';
+	font-size:22px;
+	font-weight:bold;
+	color:#7e7e7e;
+	margin:15px 0 0;
+	line-height:21px;
+}
+.body div ul.blog li:first-child{
+	margin:0;
+}
+.footer{
+    width:1200px;
+    height:300px;
+    background:url(images/bg-footer.gif);
+    padding:40px 0 0 150px;
+    margin:auto;
+    overflow:hidden;
+}
+.footer ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+.footer  ul li{
+	margin:0 0 5px;
+}
+.footer  ul li a:hover{
+	color:#6CB2E6;
+}
+.footer  ul li a{
+	color:#d5ebf8;
+	font-size:18px;
+	font-family: 'RokkittRegular';
+	text-decoration:none;
+	outline:none;
+	line-height:35px;
+}
+.footer p{
+    color:#22323f;
+    font-size:12px;
+    margin:25px 0 0 65px;
+    font-family:Arial;
+    width:600px;
+    float:left;
+    text-align:justify;
+	text-shadow: 0 1px 0 #99abb9;
+	line-height:21px;
+}
+.footer .connect{
+	float:left;
+	margin:0 0 0 50px;
+	width:auto;
+	height:150px;
+	background:url(images/interface.gif) no-repeat left -33px;
+}
+.footer .connect a:hover{
+	color:#3d4f5b;
+}
+.footer .connect a{
+	outline:none;
+	height:28px;
+	width:auto;
+	text-decoration:none;
+	margin:10px 0 0 45px;
+	font-family:arial;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:0 1px 0 #546a77;
+	text-transform:capitalize;
+	font-size:14px;
+}
+.footer .connect a#facebook{
+	display:block;
+	background:url(images/icons.gif) no-repeat 0 -48px;
+	line-height:25px;
+    padding:0 0 0 80px;
+	margin-bottom: 25px;
+}
+.footer .connect a#twitter{
+	display:block;
+	background:url(images/icons.gif) no-repeat 0 -96px;
+	line-height:25px;
+	padding:0 0 0 90px;
+}
+.footer .connect a#vimeo{
+	display:block;
+	background:url(images/icons.gif) no-repeat;
+	line-height:25px;
+	padding:0 0 0 90px;
+	margin-bottom:25px;
+}
+.footer p.footnote{
+	text-shadow: 0 1px 0 #99abb9;
+	color:#3e505c;
+	clear:both;
+	text-align:center;
+	margin:0;
+	float:none;
+	width:auto;
+	font-size:10px;
+	font-family:trebuchet MS;
+	font-weight:bold;
+	padding:30px 0 0;
+}
